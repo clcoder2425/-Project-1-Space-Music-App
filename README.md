@@ -6,14 +6,15 @@
 Space exploration is always exciting and the latest discovery that has been done in Mars via curiosity are just mind boggling.  
 That is why Mars Exploration app is unique and fun.
 
-- With this project with provide Mars explration's lovers with a platform where to search the latest pictures from curisity while enjoying a relaxing music.
+- With this project with provide Mars explration's lovers with a platform where to search the latest pictures from curiosity while enjoying a relaxing music.
 
 ## Table of Contents 
 
 I
 
-- [Installation](#installation)
-- [Usage](#usage)
+- [Webpage Preview](#Webpage Preview)
+- [Code-Snippet](#Code-Snippet)
+- [Custom-Features](#Code-Snippet)
 - [Credits](#credits)
 - [License](#license)
 
