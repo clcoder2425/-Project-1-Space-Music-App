@@ -93,19 +93,19 @@ player.playVideo()
 
 function muteMusic(){
 if (player.isMuted()){
-  muteButton.innerHTML="Mute"
+  muteButton.innerHTML="&#128360"
   player.unMute()
 }else{player.mute()
-muteButton.innerHTML="Unmute"
+muteButton.innerHTML="&#128361"
 }};
 
 function playPause(){
 if (player.getPlayerState()!=1){          // if player isnt playing, play. Otherwise pause video
   player.playVideo()
-  playPauseButton.innerHTML="Pause"
+  playPauseButton.innerHTML="&#9208"
 }else{
     player.pauseVideo()
- playPauseButton.innerHTML="Play"
+ playPauseButton.innerHTML="&#9205"
 }};
 
 function restartMusic(){
@@ -133,3 +133,7 @@ playPauseButton.addEventListener('click', playPause);                 // when pl
 muteButton.addEventListener('click', muteMusic);                    // Mutes/unmutes when Mute button is clicked
 searchFieldEl.addEventListener('submit', formSubmitHandler);
 
+function play2() {
+  var audio = document.getElementById("audio");
+  audio.play();
+}
