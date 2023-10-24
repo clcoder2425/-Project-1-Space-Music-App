@@ -123,6 +123,7 @@ if (storedSearches != null){                                                    
     // searchArray =[]
     var button = document.createElement("button");
     button.textContent = search
+    button.class = "button is-primary is-small"
     button.id = search
     displaySaved.appendChild(button);
     console.log(button)
