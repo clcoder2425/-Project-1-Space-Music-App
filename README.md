@@ -69,7 +69,7 @@ function displayPhotos(imgURL){
 
 
 ## Usage
-The link of the webpage is: 
+The link of the webpage is: -------
 1. Load the webpage.
 2. Click on the search box
 3. Enter your search criteria in the format of yyy-m-dd.
@@ -96,14 +96,16 @@ Webpage use example:
 ## License
 [License](#MIT)
 ## Authors
-- [Brian-King](#Brian King ) 
-
-- [CarrTe-Alexander-(CJ)](#CarrTe Alexander (CJ))
-- [Carmen-Jimenez](#Carmen Jimenez https://github.com/clcoder2425/mars-exploration-app.git)
+- [Brian-King](#Brian King https://github.com/kingbgreen5) 
+- [CarrTe-Alexander-(CJ)](#CarrTe Alexander (CJ) https://github.com/carrtealexander)
+- [Carmen-Jimenez](#Carmen Jimenez https://github.com/clcoder2425/)
 
 ## Credits
 
-
+- [W3School](W3School)
+- [StackOverflow](https://stackoverflow.com)
+- [NASA API](https://api.nasa.gov/)
+- [Youtube-API](https://developers.google.com/youtube/v3/quickstart/js)
 List your collaborators, if any, with links to their GitHub profiles.
 
 nasa api link
@@ -117,22 +119,3 @@ If you followed tutorials, include links to those here as well.
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
