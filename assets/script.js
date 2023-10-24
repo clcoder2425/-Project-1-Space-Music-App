@@ -12,7 +12,7 @@ var saveSearchBtn= document.querySelector('#saveSearch')
 var displaySaved = document.querySelector('#displaySaved')
 var clearSaved = document.querySelector('#clearSaved')
 
-
+var errorMessage =document.querySelector('#error-modal')
 
 //---------------------Search Function-------------
 var formSubmitHandler = function (event) {             // when clicked, this is run
@@ -47,7 +47,7 @@ fetch(apiUrl)                                         // FETCH Request
     response.json().then(function (data) {
       console.log(data);
       if (data.photos.length === 0) {
-        displayEl.textContent = 'No Photos found. Please select another date';
+        displayError();
         return;
       }
 
@@ -58,11 +58,11 @@ fetch(apiUrl)                                         // FETCH Request
         displayPhotos(imgURL);
   }});
   } else {
-    alert('Error: ' + response.statusText);
+    displayError();
   }
 })
 .catch(function (error) {
-  alert('Unable to connect to Library');
+  // alert('Unable to connect to Library');
 });
 };
 
@@ -130,7 +130,25 @@ if (storedSearches != null){                                                    
 }}
 }
 
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
+// When the user clicks the button, open the modal 
+function displayError() {
+  errorMessage.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  errorMessage.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    errorMessage.style.display = "none";
+  }
+}
 
 
 //-------------------------------------------------------------Youtube-----------------------------------
