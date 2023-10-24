@@ -63,9 +63,9 @@ function displayPhotos(imgURL){
 
 
 ## Custome-Features
-🌕 Search box with format of year-month-day.
-🌕 Music player with mute button, play/pause button, restart music, volume up/down, 
-🌕 Display curiosity pictures for the day input.
+- 🌕 Search box with format of year-month-day.
+- 🌕 Music player with mute button, play/pause button, restart music, volume up/down, 
+- 🌕 Display curiosity pictures for the day input.
 
 
 ## Usage
@@ -83,11 +83,11 @@ Webpage use example:
     ![webpage-preview](./assets/images/mars-exploration-preview.JPG)
     ```
 ## Skills Improved
-🌕CSS styling: bootstrap, bulma
-🌕 Web APIs Local Storage
-🌕 Event Listener
-🌕 Setting Attributes
-🌕 Creating Iframes
+- 🌕CSS styling: bootstrap, bulma
+- 🌕 Web APIs Local Storage
+- 🌕 Event Listener
+- 🌕 Setting Attributes
+- 🌕 Creating Iframes
 
 ## Technologies
  -[HTML](#HTML)
