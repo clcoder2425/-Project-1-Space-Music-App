@@ -7,13 +7,20 @@ var playPauseButton= document.querySelector('#playPause')
 var restartMusicButton= document.querySelector('#restartButton')
 var volumeUpBtn= document.querySelector('#volumeUp')
 var volumeDwnBtn= document.querySelector('#volumeDown')
+//----------------Local Storage-----------------------
+var saveSearchBtn= document.querySelector('#saveSearch')
+var displaySaved = document.querySelector('#displaySaved')
+var clearSaved = document.querySelector('#clearSaved')
 
+
+
+//---------------------Search Function-------------
 var formSubmitHandler = function (event) {             // when clicked, this is run
   event.preventDefault();
   var usersSearchInput = searchFieldInput.value       // sets a variable from the info typed in the field
 console.log(usersSearchInput)
 getSearch(usersSearchInput)                         // runs the search function with users search input
-play()
+play()                                              // Plays music when search begins
 };
 
 var getSearch = function (usersSearchInput) {
@@ -59,8 +66,75 @@ fetch(apiUrl)                                         // FETCH Request
 });
 };
 
-//----------------------------------------------------------------------------------------------------
- var tag = document.createElement('script'); //  loads the IFrame Player API code asynchronously.
+//-------------------------------------------------------------Local Storage------------------------
+
+
+searchArray =[]                                                           // creates search array as an empty array
+if (JSON.parse(localStorage.getItem("search")) != null){                  // if theres stuff in local storage, update the search array with that stuff
+  searchArray = JSON.parse(localStorage.getItem("search"));               // this is neaded because each time the page reloads it empties search array on the above line.
+}
+
+var clearSearchHandler = function (event) {                               // Erases local storage and the array that saves to local storage. Then rerenders the empty list
+  searchArray =[]   
+  localStorage.clear("search", JSON.stringify(searchArray));
+  renderSearch()
+}
+
+function saveSearch (event){                                                // Saves Search in local
+  event.preventDefault();
+  if(searchFieldInput.value==''){
+    return
+  }
+  var usersSearchInput = searchFieldInput.value       // sets a variable from the info typed in the field
+  console.log(usersSearchInput)
+  storeSearch()
+  renderSearch()
+  }
+  
+var historyButtonHandler = function (event) {                        // When Search History Buttons are clicked, runs this function listening for any clicks in the search history Div
+  var element = event.target;                                           // Selects the Clicked BUtton
+  var usersSearchInput = element.id
+  if (element.matches("button") === true) {
+    console.log("Search Input: " + usersSearchInput)
+    getSearch(usersSearchInput) 
+      searchFieldInput.value = ''                                         // Clears Search Field
+    }}
+
+function storeSearch(){                                                        // Stores Searches in local Storage
+  console.log(usersSearchInput)
+  var usersSearchInput = searchFieldInput.value 
+  console.log(usersSearchInput)
+  searchArray.push(usersSearchInput)
+  localStorage.setItem("search", JSON.stringify(searchArray));        
+  console.log(searchArray)
+  renderSearch()
+};
+
+function renderSearch(){       
+  displaySaved.textContent=''                                                                   //Clears info From the Displayed elements  
+  // searchHistory.textContent=''
+  var storedSearches = JSON.parse(localStorage.getItem("search")); 
+  console.log(storedSearches)
+  // searchArray = JSON.parse(localStorage.getItem("search"));    
+  // Renders Stored searches
+if (storedSearches != null){                                                                    // iF theres stuff in stored searches, render the stuff
+  for (var i = 0; i < storedSearches.length; i++) {
+    var search = storedSearches[i];
+    // searchArray =[]
+    var button = document.createElement("button");
+    button.textContent = search
+    button.class = "button is-primary is-small"
+    button.id = search
+    displaySaved.appendChild(button);
+    console.log(button)
+}}
+}
+
+
+
+
+//-------------------------------------------------------------Youtube-----------------------------------
+ var tag = document.createElement('script'); //  loads the IFrame Player API code asynchronously.         Youtube Player Section             
  tag.src = "https://www.youtube.com/iframe_api";
  var firstScriptTag = document.getElementsByTagName('script')[0];
  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
@@ -71,7 +145,7 @@ fetch(apiUrl)                                         // FETCH Request
    player = new YT.Player('player', {
      height: '0',
      width: '0',
-     videoId: 'tI6jkImHqRg',                // video ID
+     videoId: 'tI6jkImHqRg',                // video ID, THis is what determines what video is played.
      playerVars: {
        'playsinline': 1,
      },
@@ -126,14 +200,16 @@ function volumeDown(){
 
 
 
-volumeUpBtn.addEventListener('click',volumeUp );                        //Event Listeners
+//---Event Listeners
+clearSaved.addEventListener('click', clearSearchHandler )       // Saving to local storage
+saveSearchBtn.addEventListener('click', saveSearch)
+
+volumeUpBtn.addEventListener('click',volumeUp );                  // Youtube Controls
 volumeDwnBtn.addEventListener('click', volumeDown);
 restartMusicButton.addEventListener('click', restartMusic);
 playPauseButton.addEventListener('click', playPause);                 // when playpauseButton is clicked, runs playPause Function
 muteButton.addEventListener('click', muteMusic);                    // Mutes/unmutes when Mute button is clicked
-searchFieldEl.addEventListener('submit', formSubmitHandler);
 
-function play2() {
-  var audio = document.getElementById("audio");
-  audio.play();
-}
+searchFieldEl.addEventListener('submit', formSubmitHandler);        // Search
+
+renderSearch()                                                      // Renders saved searches on page load
