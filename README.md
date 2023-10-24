@@ -82,7 +82,7 @@ Webpage use example:
 ![webpage-preview](./assets/images/mars-exploration-preview.JPG)
     
 ## Skills Improved
-- 🌕CSS styling: bootstrap, bulma
+- 🌕 CSS styling: bootstrap, bulma
 - 🌕 Web APIs Local Storage
 - 🌕 Event Listener
 - 🌕 Setting Attributes
@@ -106,6 +106,7 @@ Webpage use example:
 - [StackOverflow](https://stackoverflow.com)
 - [NASA API](https://api.nasa.gov/)
 - [Youtube-API](https://developers.google.com/youtube/v3/quickstart/js)
+
 
 List your collaborators, if any, with links to their GitHub profiles.
 
