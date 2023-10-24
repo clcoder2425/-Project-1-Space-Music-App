@@ -10,7 +10,7 @@ That is why Mars Exploration app is unique and fun.
 
 ## Table of Contents 
 
-- [Webpage-Preview](#Webpage Preview)
+- [Webpage-Preview](#Webpage-Preview)
 - [Code-Snippet](#Code-Snippet)
 - [Custom-Features](#Custom-Features)
 - [Usage](#Usage)
@@ -63,35 +63,46 @@ function displayPhotos(imgURL){
 
 
 ## Custome-Features
-:smiling_face_with_three_hearts:
-🌕
+🌕 Search box with format of year-month-day.
+🌕 Music player with mute button, play/pause button, restart music, volume up/down, 
+🌕 Display curiosity pictures for the day input.
+
+
 ## Usage
+The link of the webpage is: 
+1. Load the webpage.
+2. Click on the search box
+3. Enter your search criteria in the format of yyy-m-dd.
+4. Sit and relax and scroll through your favorite Mars's curiosity photos.
 
-1. Open the app link on a browser.
-2. Enter a date on the search box.
-3. Sit and relax with a great music selection.
+Webpage use example:
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![webpage-preview](./assets/images/mars-exploration-preview.JPG)
     ```
 ## Skills Improved
-
+🌕CSS styling: bootstrap, bulma
+🌕 Web APIs Local Storage
+🌕 Event Listener
+🌕 Setting Attributes
+🌕 Creating Iframes
 
 ## Technologies
-
+ -[HTML](#HTML)
+ -[CSS](#CSS)
+ -[JavaScript](#JavaScript)
 ## License
 [License](#MIT)
 ## Authors
+- [Brian-King](#Brian King ) 
+
+- [CarrTe-Alexander-(CJ)](#CarrTe Alexander (CJ))
+- [Carmen-Jimenez](#Carmen Jimenez https://github.com/clcoder2425/mars-exploration-app.git)
 
 ## Credits
-Colaborators:
-Green
-CJ
-Carmen
+
 
 List your collaborators, if any, with links to their GitHub profiles.
 
