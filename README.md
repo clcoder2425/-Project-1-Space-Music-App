@@ -14,13 +14,31 @@ I
 
 - [Webpage Preview](#Webpage Preview)
 - [Code-Snippet](#Code-Snippet)
-- [Custom-Features](#Code-Snippet)
+- [Custom-Features](#Custom-Features)
+- [Usage](#Usage)
+- [Skill-Improved](#Skill-Improved)
+- [Technologies](#Technologies)
+- [Authors](#Authors)
 - [Credits](#credits)
-- [License](#license)
 
-## Installation
+
+## Webpage Preview
 
 No installation required. Just an uptodate browser.
+
+## Code-Snippet
+Java script
+Funtion to Handle Form
+```
+var formSubmitHandler = function (event) {   // when clicked, this is run
+  event.preventDefault();
+  var usersSearchInput = searchFieldInput.value    // sets a variable from the info typed in the field
+console.log(usersSearchInput)
+getSearch(usersSearchInput) 
+}
+```
+
+## Custome-Features
 
 ## Usage
 
@@ -35,6 +53,14 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
+## Skills Improved
+
+
+## Technologies
+
+## License
+[License](#MIT)
+## Authors
 
 ## Credits
 Colaborators:
@@ -52,9 +78,6 @@ If you used any third-party assets that require attribution, list the creators w
 If you followed tutorials, include links to those here as well.
 
 
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 ---
 
