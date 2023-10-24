@@ -69,7 +69,7 @@ function displayPhotos(imgURL){
 
 
 ## Usage
-The link of the webpage is: -------
+The link of the webpage is:  https://clcoder2425.github.io/mars-exploration-app/
 1. Load the webpage.
 2. Click on the search box
 3. Enter your search criteria in the format of yyy-m-dd.
