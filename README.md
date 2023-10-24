@@ -10,9 +10,7 @@ That is why Mars Exploration app is unique and fun.
 
 ## Table of Contents 
 
-I
-
-- [Webpage Preview](#Webpage Preview)
+- [Webpage-Preview](#Webpage Preview)
 - [Code-Snippet](#Code-Snippet)
 - [Custom-Features](#Custom-Features)
 - [Usage](#Usage)
@@ -28,7 +26,8 @@ No installation required. Just an uptodate browser.
 
 ## Code-Snippet
 Java script
-Funtion to Handle Form
+#Funtion to Handle Form
+
 ```
 var formSubmitHandler = function (event) {   // when clicked, this is run
   event.preventDefault();
@@ -37,6 +36,31 @@ console.log(usersSearchInput)
 getSearch(usersSearchInput) 
 }
 ```
+#Function to handle search
+
+```
+vvar getSearch = function (usersSearchInput) {
+// Useable Api Urls
+var apiUrl = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=' + usersSearchInput +  '&z&api_key=0kRnAVYNc2gsCR3nOYw7LjB2uBvKsB75RLIkT25q' 
+console.log(usersSearchInput)
+}
+```
+#Function to display photos
+
+```
+function displayPhotos(imgURL){
+  if(cameraName == "Mast Camera" ){   //  prevents Mast camera photos from loading, because they dont look very good
+    return;
+  }else{
+  var img = document.createElement("img");
+  img.src = imgURL;
+  img.title = cameraName;
+  // document.body.appendChild(img);        //  adds it to the <body> tag
+  displayEl.appendChild(img);      
+  }
+}
+```
+
 
 ## Custome-Features
 
