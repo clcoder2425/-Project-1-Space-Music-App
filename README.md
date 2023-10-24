@@ -78,10 +78,9 @@ The link of the webpage is: -------
 Webpage use example:
 
 
-
-    ```md
+    
     ![webpage-preview](./assets/images/mars-exploration-preview.JPG)
-    ```
+    
 ## Skills Improved
 - 🌕CSS styling: bootstrap, bulma
 - 🌕 Web APIs Local Storage
@@ -95,6 +94,7 @@ Webpage use example:
  -[JavaScript](#JavaScript)
 ## License
 [License](#MIT)
+
 ## Authors
 - [Brian-King](#Brian King https://github.com/kingbgreen5) 
 - [CarrTe-Alexander-(CJ)](#CarrTe Alexander (CJ) https://github.com/carrtealexander)
@@ -106,6 +106,7 @@ Webpage use example:
 - [StackOverflow](https://stackoverflow.com)
 - [NASA API](https://api.nasa.gov/)
 - [Youtube-API](https://developers.google.com/youtube/v3/quickstart/js)
+
 List your collaborators, if any, with links to their GitHub profiles.
 
 nasa api link
