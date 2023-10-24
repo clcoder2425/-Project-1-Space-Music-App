@@ -79,7 +79,7 @@ Webpage use example:
 
 
     
-    ![webpage-preview](assets/images/mars-exploration-preview.JPG)
+![webpage-preview](./assets/images/mars-exploration-preview.JPG)
     
 ## Skills Improved
 - 🌕CSS styling: bootstrap, bulma
