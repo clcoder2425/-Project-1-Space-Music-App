@@ -63,7 +63,8 @@ function displayPhotos(imgURL){
 
 
 ## Custome-Features
-
+:smiling_face_with_three_hearts:
+🌕
 ## Usage
 
 1. Open the app link on a browser.
@@ -78,7 +79,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ![alt text](assets/images/screenshot.png)
     ```
 ## Skills Improved
-:smiling_face_with_three_hearts:
+
 
 ## Technologies
 
