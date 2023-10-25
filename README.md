@@ -22,7 +22,7 @@ That is why Mars Exploration app is unique and fun.
 
 ## Webpage Preview
 
-![Webpage-demo](./assets/images/Mars%20Space%20Explorator%20-%20Google%20Chrome%202023-10-24%2012-37-02.mp4)
+![Webpage-demo](./assets/images/mars-exploration-preview.JPG)
 
 ## Code-Snippet
 Java script
@@ -93,7 +93,7 @@ Webpage use example:
  - [CSS](#CSS)
  - [JavaScript](#JavaScript)
 ## License
-[License](#MIT)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Authors
 - [Brian-King](#Brian King https://github.com/kingbgreen5) 
