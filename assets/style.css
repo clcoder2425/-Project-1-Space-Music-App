@@ -1,19 +1,22 @@
 body{
-    background:linear-gradient(0deg, #000000, #000000fa,#000000);
-    font-family:monospace;
+  background:rgb(0, 0, 0);
+  font-family:monospace;
 word-spacing: 2px;
+width: auto;
+min-height: auto;
+min-width:100px;
+
 
 margin:0;
 }
 
 img{
- 
-height: 350px;
-width: 450px;
+
+width:50%;
 margin-top: 10px;
 margin-bottom: 15px;
-margin-left: 100px;
-
+margin-left: 25%;
+margin-right: 25%;
 }
 
 
@@ -23,15 +26,29 @@ margin-left: 100px;
 #topImage{
 
 
-    background-image: url("https://www.nameastar.com/wp-content/uploads/2020/10/Mars_Red_Planet.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-  background-size: 50%;
-  padding: 300px;
+  background-image: url("https://www.nameastar.com/wp-content/uploads/2020/10/Mars_Red_Planet.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 350px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+}
+
+
 
     
-   
-
+.footer{
+ 
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: var(--background);
+  border: 1px solid;
+  border-color: white;
+  color:white;
+  border-radius: 2%;
+  font-style:oblique;
 }
 
 

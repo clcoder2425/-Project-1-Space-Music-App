@@ -10,7 +10,7 @@ That is why Mars Exploration app is unique and fun.
 
 ## Table of Contents 
 
-- [Webpage-Preview](#Webpage Preview)
+- [Webpage-Preview](#Webpage-Preview)
 - [Code-Snippet](#Code-Snippet)
 - [Custom-Features](#Custom-Features)
 - [Usage](#Usage)
@@ -63,35 +63,50 @@ function displayPhotos(imgURL){
 
 
 ## Custome-Features
-:smiling_face_with_three_hearts:
-🌕
+- 🌕 Search box with format of year-month-day.
+- 🌕 Music player with mute button, play/pause button, restart music, volume up/down, 
+- 🌕 Display curiosity pictures for the day input.
+
+
 ## Usage
+The link of the webpage is:  https://clcoder2425.github.io/mars-exploration-app/
+1. Load the webpage.
+2. Click on the search box
+3. Enter your search criteria in the format of yyy-m-dd.
+4. Sit and relax and scroll through your favorite Mars's curiosity photos.
 
-1. Open the app link on a browser.
-2. Enter a date on the search box.
-3. Sit and relax with a great music selection.
+Webpage use example:
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    
+![webpage-preview](./assets/images/mars-exploration-preview.JPG)
+    
 ## Skills Improved
-
+- 🌕 CSS styling: bootstrap, bulma
+- 🌕 Web APIs Local Storage
+- 🌕 Event Listener
+- 🌕 Setting Attributes
+- 🌕 Creating Iframes
 
 ## Technologies
-
+ -[HTML](#HTML)
+ -[CSS](#CSS)
+ -[JavaScript](#JavaScript)
 ## License
 [License](#MIT)
+
 ## Authors
+- [Brian-King](#Brian King https://github.com/kingbgreen5) 
+- [CarrTe-Alexander-(CJ)](#CarrTe Alexander (CJ) https://github.com/carrtealexander)
+- [Carmen-Jimenez](#Carmen Jimenez https://github.com/clcoder2425/)
 
 ## Credits
-Colaborators:
-Green
-CJ
-Carmen
+
+- [W3School](W3School)
+- [StackOverflow](https://stackoverflow.com)
+- [NASA API](https://api.nasa.gov/)
+- [Youtube-API](https://developers.google.com/youtube/v3/quickstart/js)
+
 
 List your collaborators, if any, with links to their GitHub profiles.
 
@@ -106,22 +121,3 @@ If you followed tutorials, include links to those here as well.
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
