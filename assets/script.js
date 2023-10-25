@@ -14,6 +14,7 @@ var clearSaved = document.querySelector('#clearSaved')
 
 var errorMessage =document.querySelector('#error-modal')
 
+
 //---------------------Search Function-------------
 var formSubmitHandler = function (event) {             // when clicked, this is run
   event.preventDefault();
@@ -129,7 +130,6 @@ if (storedSearches != null){                                                    
     console.log(button)
 }}
 }
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
@@ -138,13 +138,11 @@ function displayError() {
   errorMessage.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.onclick = function() {         // When the user clicks on <span> (x), close the modal
   errorMessage.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function(event) {       // When the user clicksoutside of the modal, close 
   if (event.target == errorMessage) {
     errorMessage.style.display = "none";
   }
@@ -221,6 +219,9 @@ function volumeDown(){
 //---Event Listeners
 clearSaved.addEventListener('click', clearSearchHandler )       // Saving to local storage
 saveSearchBtn.addEventListener('click', saveSearch)
+displaySaved.addEventListener('click',historyButtonHandler)
+
+
 
 volumeUpBtn.addEventListener('click',volumeUp );                  // Youtube Controls
 volumeDwnBtn.addEventListener('click', volumeDown);
