@@ -6,7 +6,7 @@
 Space exploration is always exciting and the latest discovery that has been done in Mars via curiosity are just mind boggling.  
 That is why Mars Exploration app is unique and fun.
 
-- With this project with provide Mars explration's lovers with a platform where to search the latest pictures from curiosity while enjoying a relaxing music.
+With this project with provide Mars explration's lovers with a platform where to search the latest pictures from curiosity while enjoying a relaxing music.
 
 ## Table of Contents 
 
@@ -106,21 +106,9 @@ Webpage use example:
 - [StackOverflow](https://stackoverflow.com)
 - [NASA API](https://api.nasa.gov/)
 - [Youtube-API](https://developers.google.com/youtube/v3/quickstart/js)
+- [BULMA](https://bulma.io/documentation/helpers/typography-helpers/)
 
 ## Tutorials:
 - [Modals-W3School](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal)
 
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-nasa api link
-youtube api
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-
-
----
 
