@@ -22,7 +22,7 @@ With this project with provide Mars explration's lovers with a platform where to
 
 ## Webpage Preview
 
-![Webpage-demo](./assets/images/mars-exploration-preview.JPG)
+![Webpage-demo](./assets/images/ezgif.com-optimize.gif)
 
 ## Code-Snippet
 Java script
