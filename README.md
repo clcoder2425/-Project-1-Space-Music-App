@@ -22,7 +22,7 @@ That is why Mars Exploration app is unique and fun.
 
 ## Webpage Preview
 
-No installation required. Just an uptodate browser.
+![Webpage-demo](./assets/images/Mars%20Space%20Explorator%20-%20Google%20Chrome%202023-10-24%2012-37-02.mp4)
 
 ## Code-Snippet
 Java script
@@ -89,9 +89,9 @@ Webpage use example:
 - 🌕 Creating Iframes
 
 ## Technologies
- -[HTML](#HTML)
- -[CSS](#CSS)
- -[JavaScript](#JavaScript)
+ - [HTML](#HTML)
+ - [CSS](#CSS)
+ - [JavaScript](#JavaScript)
 ## License
 [License](#MIT)
 
@@ -106,6 +106,9 @@ Webpage use example:
 - [StackOverflow](https://stackoverflow.com)
 - [NASA API](https://api.nasa.gov/)
 - [Youtube-API](https://developers.google.com/youtube/v3/quickstart/js)
+
+## Tutorials:
+- [Modals-W3School](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal)
 
 
 List your collaborators, if any, with links to their GitHub profiles.
