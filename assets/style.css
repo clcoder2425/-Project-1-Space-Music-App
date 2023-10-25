@@ -1,11 +1,11 @@
 :root{
-  --bacground:linear-gradient(0deg, #000000, #000000fa,#000000);
+  --background:linear-gradient(0deg, #000000, #000000fa,#000000);
   --font-family:monospace;
 }
 body{
-   background: var(--bacground);
+   background: var(--background);
    font-family: var(--font-family);
-word-spacing: 2px;
+   word-spacing: 2px;
 
 margin:0;
 }
