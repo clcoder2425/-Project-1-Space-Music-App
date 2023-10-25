@@ -72,7 +72,7 @@ function displayPhotos(imgURL){
 The link of the webpage is:  https://clcoder2425.github.io/mars-exploration-app/
 1. Load the webpage.
 2. Click on the search box
-3. Enter your search criteria in the format of yyy-m-dd.
+3. Enter your search criteria in the format of yyyy-mm-dd.
 4. Sit and relax and scroll through your favorite Mars's curiosity photos.
 
 Webpage use example:
